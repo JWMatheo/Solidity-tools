@@ -1,5 +1,6 @@
 
-// Works with ^0.8.0
+pragma solidity ^0.8.0;
+
 function uint2str(
         uint _i
     ) internal pure returns (string memory _uintAsString) {
