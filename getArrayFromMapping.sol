@@ -1,7 +1,7 @@
 
 // Replace <TYPE> by your type. Exemples of common type are address, uint, string, bool, bytes or struc. Please refer to the official documentation : https://solidity-fr.readthedocs.io/fr/latest/types.html
 
-// This mapping is performed from an address, but can be performed from other types. For example, if you want to map from an uint, you must replace all "addresse" by "uint".
+// This mapping is performed from an address, but can be performed from other types. For example, if you want to map from an uint, you must replace all "address" by "uint".
 
 pragma solidity ^0.8.19;
 mapping(address => <TYPE>[]) public mapToArrayOfAddress;
